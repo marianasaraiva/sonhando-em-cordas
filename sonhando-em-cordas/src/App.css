@@ -23,7 +23,7 @@ button:hover {
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(86, 126, 49));
   color: rgb(148, 5, 5);
   padding: 15px 50px;
-  width: 130px;
+  width: 20vh;
   margin: 10px;
 }
 
@@ -70,7 +70,7 @@ embed {
   color: rgb(148, 5, 5);
   font-size: large;
   padding: 15px 50px;
-  margin: 5px;
+  margin: 10px;
   width: 20vh;
 }
 
