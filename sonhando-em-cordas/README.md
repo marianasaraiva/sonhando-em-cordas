@@ -23,7 +23,7 @@ Jogo desenvolvido em dupla com [Jonatas Passos](https://github.com/jonataspassos
 
 1. Realizar o git clone ou;
 
-2. Acesse pelo link no vercel: 
+2. Acesse pelo link no vercel: https://sonhando-em-cordas.vercel.app/
 
 ## Gif do projeto:
 <p align="center">
