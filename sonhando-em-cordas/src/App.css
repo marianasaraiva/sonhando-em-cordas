@@ -14,7 +14,7 @@ h3 {
 }
 
 p {
-  padding-top: 50px;
+  padding-top: 30px;
   font-weight: 600;
 }
 
@@ -61,7 +61,7 @@ embed {
 .header {
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .button-green {
@@ -84,6 +84,18 @@ embed {
   border-radius: 5px;
 }
 
+.button-play-again:hover {
+  background-color: transparent;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(86, 126, 49));
+  color: rgb(148, 5, 5);
+  font-size: medium;
+  font-weight: 600;
+  border-radius:5px;
+  padding: 15px 70px;
+  margin: 10px;
+  width: 40vh;
+}
+
 .button-play-again {
   background-color: white;
   color: rgb(148, 5, 5);
@@ -93,4 +105,4 @@ embed {
   padding: 15px 70px;
   margin: 10px;
   width: 40vh;
-};
+}
