@@ -76,45 +76,47 @@ const Game = () => {
           </div>
         </div>
        :
-        <div className="game">
-            <h3>Selecione a nota e em seguidea a cifra correspondente</h3>
-          <div>
-  
-            <p>Notas musicais</p>
-            {
-              notas.map((nota, i) => 
-                <button
-                  className="button-white"
-                  key={ i }
-                  value={ nota }
-                  id={ nota }
-                  onClick={({target}) => {
-                    setButtonNota(target.value);
-                  }}
-                  >
-                  { nota }
-                </button>
-              )
-            }
-          </div>
+        <div>
+          <h3>Selecione a nota e em seguidea a cifra correspondente</h3>
+          <div className="game">
+            <div>
+    
+              <p>Notas musicais</p>
+              {
+                notas.map((nota, i) => 
+                  <button
+                    className="button-white"
+                    key={ i }
+                    value={ nota }
+                    id={ nota }
+                    onClick={({target}) => {
+                      setButtonNota(target.value);
+                    }}
+                    >
+                    { nota }
+                  </button>
+                )
+              }
+            </div>
 
-          <div>
-          <p>Cifras</p>
-            {
-              cifras.map((cifra, i) => 
-              <button
-                  className="button-white"
-                  key={ i }
-                  value={ cifra }
-                  id={ cifra }
-                  onClick={({target}) => {
-                    setButtonCifra(target.value);
-                  }}
-                  >
-                  { cifra }
-                </button>
-              )
-            }
+            <div>
+            <p>Cifras</p>
+              {
+                cifras.map((cifra, i) => 
+                <button
+                    className="button-white"
+                    key={ i }
+                    value={ cifra }
+                    id={ cifra }
+                    onClick={({target}) => {
+                      setButtonCifra(target.value);
+                    }}
+                    >
+                    { cifra }
+                  </button>
+                )
+              }
+            </div>
           </div>
         </div>
       }

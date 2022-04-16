@@ -1,3 +1,39 @@
+@media screen and (max-width: 450px) { 
+  img { 
+    display:none;
+  }
+
+  p {
+    padding-top: 10px;
+    font-weight: 600;
+    color: black;
+  }
+
+  .header {
+    color: white;
+  }
+
+  .container-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .container-game {
+    height: 100vh;
+  }
+}
+
 body {
   background-image: url(../src/images/FolderCapa.png);
   background-size: cover;
@@ -25,10 +61,6 @@ button:hover {
   padding: 15px 50px;
   width: 20vh;
   margin: 10px;
-}
-
-embed {
-  display:none;
 }
 
 .button-white {
