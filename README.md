@@ -27,5 +27,5 @@ Jogo desenvolvido em dupla com [Jonatas Passos](https://github.com/jonataspassos
 
 ## Gif do projeto:
 <p align="center">
-  <img  src="https://github.com/marianasaraiva/sonhando-em-cordas/blob/master/sonhando-em-cordas/src/images/SonhandoEmCordas.gif" alt="Sonhando em Cordas Gif"/>
+  <img  src="https://github.com/marianasaraiva/sonhando-em-cordas/blob/master/src/images/SonhandoEmCordas.gif" alt="Sonhando em Cordas Gif"/>
 </p>
