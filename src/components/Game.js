@@ -13,7 +13,7 @@ const Game = () => {
 
   const arrayNotas = [ 'Lá', 'Si', 'Dó', 'Ré', 'Mi', 'Fá', 'Sol'];
   const arrayCifras = [ 'A', 'B', 'C', 'D', 'E', 'F', 'G' ];
-  
+
   const embaralharArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -34,7 +34,7 @@ const Game = () => {
 
   const checarVitoria = () => {
     const gameButtonsMarcados = document.querySelectorAll('.button-green');
-    if(gameButtonsMarcadosresult.length === 14) {
+    if(gameButtonsMarcados.length === 14) {
       setGanhador(true)
     }
   };
@@ -50,7 +50,7 @@ const Game = () => {
   };
 
   useEffect(() => {
-    validaResposta(buttonNota, buttonCifra);    
+    validaResposta(buttonNota, buttonCifra);
     checarVitoria();
   }, [buttonNota, buttonCifra]);
 
@@ -68,7 +68,7 @@ const Game = () => {
         <div className="vencedor">
           <h4>Você ganhou!!!</h4>
           <div>
-            <button 
+            <button
               className="button-play-again"
               onClick={() => jogarNovamente()}
             >
@@ -83,7 +83,7 @@ const Game = () => {
             <div>
               <p>Notas musicais</p>
               {
-                notas.map((nota) => 
+                notas.map((nota) =>
                   <GameButton
                     key={ nota }
                     label={ nota }
