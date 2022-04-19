@@ -14,16 +14,19 @@ Jogo desenvolvido em dupla com [Jonatas Passos](https://github.com/jonataspassos
 
 * Funcionalidades do jogo:
 - Associar as notas musicais às cifras correspondentes, auxiliando no desenvolvimento do estudo de violão.
-- Utilizando clicks, o jogador associa as correspondências para ganhar o jogo.
+- Utilizando cliques/toques, o jogador associa as correspondências para ganhar o jogo.
 - Ao vencer, é jogador é informado pela tela e tem a opção de jogar novamente.
 - Ser redirecionado a uma nova partida ao selecionar a opção `Jogar Novamente`.
 
 
 ## Instruções para visualizar o projeto:
 
-1. Realizar o git clone ou;
+1. Clone e rode o projeto localmente:
+  * `git clone git@github.com:marianasaraiva/sonhando-em-cordas.git`
+  * `npm start`
 
-2. Acesse pelo link no vercel: https://sonhando-em-cordas.vercel.app/
+2. Acesse pelo link no vercel
+  * https://sonhando-em-cordas.vercel.app/
 
 ## Gif do projeto:
 <p align="center">
