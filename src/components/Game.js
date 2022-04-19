@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 import Violao from '../images/Violao.png';
+import GameButton from './GameButton';
 
 const Game = () => {
   const [notas, setNota] = useState([]);
@@ -83,18 +84,15 @@ const Game = () => {
     
               <p>Notas musicais</p>
               {
-                notas.map((nota, i) => 
-                  <button
-                    className="button-white"
-                    key={ i }
-                    value={ nota }
-                    id={ nota }
-                    onClick={({target}) => {
-                      setButtonNota(target.value);
-                    }}
-                    >
-                    { nota }
-                  </button>
+                notas.map((nota) => 
+                  <GameButton
+                    key={ nota }
+                    label={ nota }
+                    onClick={ ({target}) => {
+                        setButtonNota(target.value);
+                      }
+                    }
+                  />
                 )
               }
             </div>
@@ -102,18 +100,15 @@ const Game = () => {
             <div>
             <p>Cifras</p>
               {
-                cifras.map((cifra, i) => 
-                <button
-                    className="button-white"
-                    key={ i }
-                    value={ cifra }
-                    id={ cifra }
-                    onClick={({target}) => {
-                      setButtonCifra(target.value);
-                    }}
-                    >
-                    { cifra }
-                  </button>
+                cifras.map((cifra, i) =>
+                  <GameButton
+                    key={ cifra }
+                    label={ cifra }
+                    onClick={ ({target}) => {
+                        setButtonCifra(target.value);
+                      }
+                    }
+                  />
                 )
               }
             </div>
