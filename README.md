@@ -23,6 +23,7 @@ Jogo desenvolvido em dupla com [Jonatas Passos](https://github.com/jonataspassos
 
 1. Clone e rode o projeto localmente:
   * `git clone git@github.com:marianasaraiva/sonhando-em-cordas.git`
+  * `npm install`
   * `npm start`
 
 2. Acesse pelo link no vercel
