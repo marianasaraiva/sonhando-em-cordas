@@ -78,7 +78,7 @@ const Game = () => {
         </div>
        :
         <div>
-          <h3>Selecione a nota e em seguidea a cifra correspondente</h3>
+          <h3>Selecione a nota e em seguida a cifra correspondente</h3>
           <div className="game">
             <div>
               <p>Notas musicais</p>
